@@ -1,0 +1,229 @@
+body {
+  background-image: linear-gradient(to right, red , blue);
+
+}
+
+
+.ana-div {
+
+  text-align: center;
+  padding: 20px
+
+}
+
+
+.hidden {
+  visibility: hidden!important;
+
+}
+
+
+.to-do-input {
+  width: 70%;
+  height: 45px;
+  font-size: 30px;
+  color: #06FF00;
+  background-image: linear-gradient(to left, red , blue);
+  caret-color: transparent; /*bu yazı yazarken ki o yazının nerde olduğunu belli eden çizgi*/
+}
+.my-btn {
+  margin-bottom: 10px;
+  background-image: linear-gradient(to right, red , blue)!important;
+  border: none;
+  margin-left: 2%;
+  color: yellow;
+  box-shadow: 3px 5px 2px blue;
+
+
+}
+
+.my-btn:hover {
+  background-image: linear-gradient(to left, red , blue)!important;
+  box-shadow: 10px 2px 15px red;
+  color: #06FF00
+}
+
+h1,h5 {
+
+  color: #330066;
+
+
+}
+
+
+ul {
+  list-style: none;
+  line-height: 30px;
+  color: white;
+  background-color: inherit;
+  opacity: 1.5
+
+}
+
+
+.x-button {
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  right: 24%;
+  bottom: 90%;
+  color: red;
+  font-size: 1.5rem;
+
+
+}
+
+.x-button:hover {
+  background-color: inherit;
+  transform: scale(1.14);
+
+}
+
+li {
+  width: 69vw; /*vw  VİEW PORT demek burda 100vw demek VIEWPORT'ın 100 demek 69 ise  demek*/
+
+  padding-bottom: 20px;
+  padding-left: 10px;
+  word-wrap: break-word;
+  line-height: 1;
+
+
+
+}
+
+li:nth-child(2n) {
+  color: black!important;
+  padding-left: 10px;
+  font-size: 1.5rem
+
+}
+/*Burası yeni olusturduğum buttonlar*/
+.var {
+  position: fixed;
+  left: 90%;
+  font-size: 120%;
+  background-color: inherit;
+  border: none
+}
+
+.yok {
+  position: fixed;
+  background-color: inherit;
+  left: 85%;
+  font-size: 1.5rem;
+  border: none;
+
+}
+
+
+.okay {
+  position: fixed;
+  background-color: inherit;
+  left: 80%;
+  font-size: 1.5rem;
+  border: none;
+}
+/*Burası yeni olusturduğum buttonlar*/
+
+
+
+li:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to left, red , blue);
+  color: #F9C5D5;
+}
+
+
+
+.trash-button {
+  background-color: inherit;
+
+  border: none;
+  position: absolute;
+  left: 25%;
+  bottom: 90%;
+  font-size: 110%;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.text-dec {
+  text-decoration: line-through;
+  opacity: 0.7
+}
+
+
+
+
+
+@media (max-width:670px) {
+  .var {
+    position: fixed;
+    left: 75%;
+    font-size: 120%;
+    background-color: inherit;
+    border: none
+  }
+
+  .yok {
+    position: fixed;
+    background-color: inherit;
+    left: 67%;
+    font-size: 1.5rem;
+    border: none;
+
+  }
+
+
+
+
+
+
+  .okay {
+    position: fixed;
+    background-color: inherit;
+    left: 60%;
+    font-size: 1.5rem;
+    border: none;
+  }
+}
+
+
+
+
+.pop-up {
+  position: fixed;
+  left: 10%;
+  top: 30%;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right, green , black);
+  word-wrap: break-word;
+  text-align: center;
+  border-radius: 20%;
+
+
+
+}
+
+
+.pop-up > h5 {
+  padding-top: 20px
+}
+
+.pop-up > p {
+  padding-bottom: 50px;
+
+}
