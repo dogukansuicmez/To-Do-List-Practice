@@ -1,9 +1,4 @@
-/***********
-ALTTA LOCAL STORAGE ile ilgili bilmediğim şeyler var onları da tam olarak
-öğrendikten sonra bu proje biter güzel bir TO-DO list
-40. ve 70. satırlarda bu local storage'lar
 
-********/
 
 
 
@@ -52,7 +47,7 @@ $("#myform").submit(function(event) {
   })
 
 
-  // localStorage.removeItem(`${li.innerHTML}.elemanı`) /*eleman silerken local storage'dan da silmek istedim ama olmadı EKSİKLİKLER var*/
+  
 
   $("li").mouseleave(function() {
     $(this).children("button.yok").addClass("hidden");
