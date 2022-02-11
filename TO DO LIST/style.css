@@ -99,7 +99,7 @@ li:nth-child(2n) {
 }
 /*Burası yeni olusturduğum buttonlar*/
 .var {
-  position: fixed;
+  position: absolute;
   left: 90%;
   font-size: 120%;
   background-color: inherit;
@@ -107,7 +107,7 @@ li:nth-child(2n) {
 }
 
 .yok {
-  position: fixed;
+  position: absolute;
   background-color: inherit;
   left: 85%;
   font-size: 1.5rem;
@@ -117,7 +117,7 @@ li:nth-child(2n) {
 
 
 .okay {
-  position: fixed;
+  position: absolute;
   background-color: inherit;
   left: 80%;
   font-size: 1.5rem;
