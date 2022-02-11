@@ -170,7 +170,7 @@ li:hover {
 
 @media (max-width:670px) {
   .var {
-    position: fixed;
+    position: absolute;
     left: 75%;
     font-size: 120%;
     background-color: inherit;
@@ -178,7 +178,7 @@ li:hover {
   }
 
   .yok {
-    position: fixed;
+    position: absolute;
     background-color: inherit;
     left: 67%;
     font-size: 1.5rem;
@@ -192,7 +192,7 @@ li:hover {
 
 
   .okay {
-    position: fixed;
+    position: absolute;
     background-color: inherit;
     left: 60%;
     font-size: 1.5rem;
